@@ -4,11 +4,11 @@ import axios from "axios"
 function App() {
   const traerToken = async() => {
     const resp = await axios.post('https://fundovolcanes.cl/oauth/token',{   
-            grant_type:"password",
-            client_id:"9e4e7f4f-28c6-40b0-9277-ccfab26f369a",
-            client_secret:"yw9Npj7x6sNbhnK5wbwYJXM3zG8TKifdY1XKEajf",
-            username:"api@fundovolcanes.cl",
-            password:"orMascHadMIn"
+            grant_type:"",
+            client_id:"",
+            client_secret:"",
+            username:"",
+            password:""
         },
         {
             headers:{
